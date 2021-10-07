@@ -173,6 +173,6 @@ $("#hatch_btn").click( () =>
 
 
 
-
+console.log("enter javascript");
 init();
 
