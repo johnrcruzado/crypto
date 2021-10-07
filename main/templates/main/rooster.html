@@ -1,0 +1,64 @@
+{% extends 'main/header.html' %}
+{% load static %}
+{% load humanize %}
+{% block title %}Home{% endblock %}
+
+{% block css %}
+      <style>
+    .fishes
+    {
+      position: relative;
+      top: 0;
+      left: 0;
+        width: 250px;height: 350px
+    }
+    .fish
+    {
+      position: absolute;
+      top: 120px;
+      left: 50px;
+      width: 150px;height: 150px
+    }
+    .ads
+    {
+      position: absolute;
+      top: 300px;
+      left: 75px;
+      width: 100px;height: 30px
+    }
+  </style>
+{% endblock %}
+
+{% block content %}
+
+  <div class="row" style="margin-top: -20px;">
+    <div class="col-lg-12" style="background-image: url('static/main/img/background.png');background-repeat: no-repeat;background-size: 100%; height: 1000px;">
+
+        <div style="height: 350px;margin-top: 200px">
+            <div style="margin-left: 20px">
+            {% for char in rooster %}
+
+                    <div style="float: left;margin-left: 30px">
+                <div style="position: relative; left: 0; top: 0;">
+                <img src="{% static "main/img/frame.png" %}" class="fishes"/>
+                 {% if char.info.0 == "1,0,1,1" %}
+                <img src="{% static "main/img/roster_1.png" %}" class="fish"/>
+                     <img src="{% static "main/img/zoon.png" %}" class="ads"/>
+                 {% elif char.info == "2,0,1,1" %}
+                 <img src="{% static "main/img/roster_golden.png" %}" class="fish"/>
+                 {% elif char.info == "3,0,1,1" %}
+                 <img src="{% static "main/img/roster_white.png" %}" class="fish"/>
+                 {% elif char.info == "4,0,1,1" %}
+                 <img src="{% static "main/img/roster_black.png" %}" class="fish"/>
+                 {% endif %}
+                </div></div>
+
+            {% endfor %}
+            </div>
+
+        </div>
+
+    </div>
+  </div>
+
+{% endblock %}

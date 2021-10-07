@@ -1,0 +1,116 @@
+{% extends 'main/header.html' %}
+{% load static %}
+{% load humanize %}
+{% block title %}Home{% endblock %}
+
+{% block css %}
+      <style>
+    .fishes
+    {
+      position: relative;
+      top: 0;
+      left: 0;
+        width: 250px;height: 350px
+    }
+    .fish
+    {
+      position: absolute;
+      top: 120px;
+      left: 50px;
+      width: 150px;height: 150px
+    }
+    .star
+    {
+      width: 25px;height: 25px
+    }
+    .star_container
+    {
+      position: absolute;
+      top: 120px;
+      left: 190px;
+      width: 25px;height: 25px
+    }
+    .ads
+    {
+      position: absolute;
+      top: 300px;
+      left: 75px;
+      width: 100px;height: 30px
+    }
+  </style>
+{% endblock %}
+
+{% block content %}
+
+  <div class="row" style="margin-top: -20px;">
+    <div class="col-lg-10" style="background-size: 100%; ">
+
+        <div style="height: 350px;margin-top: 120px">
+            <div style="margin-left: 20px">
+            {% for char in rooster %}
+
+                <div style="float: left;margin-left: 30px">
+
+                <div style="position: relative; left: 0; top: 0;">
+
+                <img src="{% static "main/img/frame.png" %}" class="fishes"/>
+                 {% if char.info.0 == "1" %}
+                <img src="{% static "main/img/roster_1.png" %}" class="fish"/>
+
+                <img src="{% static "main/img/zoon.png" %}" class="ads"/>
+                <div style="width: 250px;text-align:center; ">
+                <p style=" font-weight: bolder;color: rgba(80,80,80,1) ">Rooster</p>
+                <div class="row"><div class="col-lg-6">Age : 14</div>  <div class="col-lg-6"> Power: 800</div></div>
+                <input type="submit" value="Feed"  class="standard_button">
+                </div>
+                 {% elif char.info.0 == "2" %}
+                 <img src="{% static "main/img/roster_golden.png" %}" class="fish"/>
+                <div style="width: 250px;text-align:center; ">
+                <p style=" font-weight: bolder;color: rgba(80,80,80,1) ">Golden Rooster</p>
+                <div class="row">
+                <div class="col-lg-6">Age : 14</div>  <div class="col-lg-6"> Power: 1000</div>
+                </div>
+                <input type="submit" value="Feed"  class="standard_button">
+                </div>
+                 {% elif char.info.0 == "3" %}
+                 <img src="{% static "main/img/roster_white.png" %}" class="fish"/>
+                <div style="width: 250px;text-align:center; ">
+                <p style=" font-weight: bolder;color: rgba(80,80,80,1) ">White Rooster</p>
+                <div class="row">
+                <div class="col-lg-6">Age : 14</div>  <div class="col-lg-6"> Power: 1300</div>
+                </div>
+                <input type="submit" value="Feed"  class="standard_button">
+                </div>
+                 {% elif char.info.0 == "4" %}
+                 <img src="{% static "main/img/roster_black.png" %}" class="fish"/>
+                <div style="width: 250px;text-align:center; ">
+                <p style=" font-weight: bolder;color: rgba(80,80,80,1) ">Black Rooster</p>
+                <div class="row">
+                <div class="col-lg-6">Age : 14</div>  <div class="col-lg-6"> Power: 1600</div>
+                </div>
+                <input type="submit" value="Feed"  class="standard_button">
+                </div>
+                 {% endif %}
+                <div class="star_container">
+                <img src="{% static "main/img/star.png" %}"  class="star"/>
+                {% if char.info.2 == "1" %}<img src="{% static "main/img/star.png" %}"  class="star"/>{% endif %}
+                {% if char.info.3 == "1" %}<img src="{% static "main/img/star.png" %}"  class="star"/>{% endif %}
+                {% if char.info.4 == "1" %}<img src="{% static "main/img/star.png" %}"  class="star"/>{% endif %}
+                </div>
+                </div>
+
+                    </div>
+
+            {% endfor %}
+            </div>
+
+        </div>
+
+    </div>
+  <div class="col-lg-2" style="background-size: 100%; height: 1000px;">
+      <div style="margin-top: 20px;padding-left: 5px;border-radius: 5px"><img src="{% static "main/img/ads.png" %}" style="width: 95%"/></div>
+
+    </div>
+  </div>
+
+{% endblock %}

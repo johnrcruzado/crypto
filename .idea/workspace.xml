@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8ef4b868-2f7d-4ddc-92cd-c6f44a9e09c1" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1vX19GzCQnX0KGRs6a1jjvHWwvP" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/main/static/main/img/face" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\PycharmProjects\Arma\main\static\main" />
+      <recent name="C:\Users\admin\PycharmProjects\Arma\main\static\main\background" />
+      <recent name="C:\Users\admin\PycharmProjects\Arma\main" />
+      <recent name="C:\Users\admin\PycharmProjects\Arma\main\templates\static" />
+      <recent name="C:\Users\admin\PycharmProjects\Arma\main\templates\static\main" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\PycharmProjects\Arma\main\static\main\img\face" />
+      <recent name="C:\Users\admin\PycharmProjects\Arma\main\static\main\js" />
+      <recent name="C:\Users\admin\PycharmProjects\Arma\main\static\main\img" />
+      <recent name="C:\Users\admin\PycharmProjects\Arma\contracts" />
+      <recent name="C:\Users\admin\PycharmProjects\Arma\migrations" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Arma" type="Python.DjangoServer" factoryName="Django server">
+      <module name="Arma" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="Arma.settings" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\admin\PycharmProjects\Arma\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="192.168.1.99" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8ef4b868-2f7d-4ddc-92cd-c6f44a9e09c1" name="Default Changelist" comment="" />
+      <created>1626693466064</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1626693466064</updated>
+      <workItem from="1626693467160" duration="1123000" />
+      <workItem from="1626706364328" duration="486000" />
+      <workItem from="1626706852249" duration="832000" />
+      <workItem from="1626845030102" duration="3036000" />
+      <workItem from="1627036782807" duration="618000" />
+      <workItem from="1627046303865" duration="599000" />
+      <workItem from="1627581609848" duration="1221000" />
+      <workItem from="1627634636992" duration="18865000" />
+      <workItem from="1627656815040" duration="9479000" />
+      <workItem from="1627812789192" duration="4000" />
+      <workItem from="1628085362091" duration="2377000" />
+      <workItem from="1628153578520" duration="1520000" />
+      <workItem from="1628235888161" duration="139000" />
+      <workItem from="1628256462477" duration="64000" />
+      <workItem from="1628278901272" duration="1283000" />
+      <workItem from="1631560348971" duration="1436000" />
+      <workItem from="1631626762540" duration="1442000" />
+      <workItem from="1631871488242" duration="701000" />
+      <workItem from="1631874037568" duration="598000" />
+      <workItem from="1632041286444" duration="598000" />
+      <workItem from="1632086279549" duration="608000" />
+      <workItem from="1632131199036" duration="594000" />
+      <workItem from="1632132849841" duration="599000" />
+      <workItem from="1632256911786" duration="523000" />
+      <workItem from="1632277355162" duration="6334000" />
+      <workItem from="1632292200914" duration="15655000" />
+      <workItem from="1632730895630" duration="608000" />
+      <workItem from="1632832385393" duration="4905000" />
+      <workItem from="1632908079610" duration="6034000" />
+      <workItem from="1632966472033" duration="3290000" />
+      <workItem from="1633031834613" duration="26002000" />
+      <workItem from="1633306427749" duration="55183000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
